@@ -2,7 +2,7 @@
 An Express- and Node-based application for matching users based on personality. This application was my first experience deploying an  Express application to Heroku.
 
 ## Getting Started
-To view the site and interact with other users' data,  visit
+To view the site and interact with other users' data,  visit https://friend-finder-tg.herokuapp.com/
 
 ## Prerequisites
 - Node.js/NPM
