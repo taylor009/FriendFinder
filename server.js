@@ -19,6 +19,10 @@ app.use(express.static(__dirname + '/app/public'));
 require('./app/routing/apiRoutes')(app);
 require('./app/routing/htmlRoutes')(app);
 
+app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+});
+
 // Start listening.
 // app.listen(3000, function() {
 //     console.log('Application is running on port 3000')
